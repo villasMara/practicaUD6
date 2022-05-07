@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="32,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="-8.556,-2.038" Height="26" Width="60"/>
+        <TextBox HorizontalAlignment="Left" Margin="92,40,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="18" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Apellidos" HorizontalAlignment="Left" Margin="255,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="-8.556,-2.038" Height="26" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="319,42,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="18"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Margin="494,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="-8.556,-2.038" Height="26" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="558,44,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="18"/>
+        <Label Content="Apellidos" HorizontalAlignment="Left" Margin="28,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-8.556,-2.038" Height="26" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,113,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="743" Height="293"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="678,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,-0.764" Height="33" Width="66" Click="Button_Click"/>
 
     </Grid>
 </Window>
