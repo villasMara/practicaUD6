@@ -32,7 +32,7 @@ namespace PracticaUD6
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Hola");
         }
     }
 }
